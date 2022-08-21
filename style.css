@@ -243,6 +243,10 @@ nav .right-nav a:hover {
     display: none;
   }
 
+  nav .left-nav a img {
+    margin-top: 45px;
+    height: 80px;
+  }
   /* swiper */
   .swiper-slide img {
     height: 50vh;
