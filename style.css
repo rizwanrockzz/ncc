@@ -22,6 +22,10 @@ img {
   user-select: none;
 }
 
+.cap{
+  text-transform: uppercase;
+}
+
 .hamburger-icon {
   display: none;
 }
