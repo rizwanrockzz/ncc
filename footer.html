@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/f7d77c852f.js" crossorigin="anonymous"></script>
+    <!-- typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .heart {
+            color: red;
+            margin: 0 5px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #typed3 {
+            width: 90px;
+            margin-left: 5px;
+        }
+    </style>
+    <title>footer</title>
+</head>
+
+<body>
+    <footer>
+        <p>Made with <i class="fa-solid fa-heart fa-beat heart" style="--fa-animation-duration: 0.5s;"></i></p>
+        <p id="typed3"></p>
+    </footer>
+</body>
+<script>
+    var typed3 = new Typed('#typed3', {
+        strings: ['by rizwan', 'by mahith', 'by prabhu', 'for vrsec'],
+        typeSpeed: 80,
+        backSpeed: 0,
+        // backDelay: 500,
+        // startDelay: 1000,
+        smartBackspace: true, // this is a default
+        loop: true,
+        showCursor: false
+    });
+</script>
+
+</html>
